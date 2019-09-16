@@ -1,0 +1,22 @@
+{
+    "name": "Cerebro VPN Config",
+    "version": "0.3",
+    "slug": "cerebro-vpn-config",
+    "url": "https://cerebro.casa",
+    "description": "Part of Cerebro Casa",
+    "startup": "services",
+    "boot": "auto",
+    "map": ["ssl:rw"],
+    "options": {
+      "api": "https://aapi.cerebro.casa:2053",
+      "username": "",
+      "password": ""
+    },
+    "schema": {
+      "api": "url",
+      "username": "str",
+      "password": "str"
+    },
+    "arch": ["amd64", "armv7", "armhf", "i386" , "aarch64"],
+    "image": "docker-registry.cerebro.casa/cerebro/addon-config-{arch}"
+  }
