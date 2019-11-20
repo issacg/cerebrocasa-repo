@@ -15,5 +15,5 @@
     },
     "schema": false,
     "arch": ["amd64", "armv7", "armhf", "i386" , "aarch64"],
-    "image": "docker-registry.cerebro.casa/cerebro/addon-autoconf-{arch}"
+    "image": "docker-registry.cerebro.casa/cerebro/addon-firmware-{arch}"
   }
