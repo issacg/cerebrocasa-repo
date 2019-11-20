@@ -1,0 +1,20 @@
+{
+    "name": "Cerebro MQTT Device AutoConfig",
+    "version": "0.2.005",
+    "slug": "cerebro-autoconf",
+    "url": "https://cerebro.casa",
+    "description": "Part of Cerebro Casa",
+    "startup": "services",
+    "boot": "auto",
+    "map": ["ssl:rw","config:rw"],
+    "homeassistant_api": true,
+    "ports": {
+      "18333/tcp": 18333
+    },
+    "options": {
+      
+    },
+    "schema": false,
+    "arch": ["amd64", "armv7", "armhf", "i386" , "aarch64"],
+    "image": "docker-registry.cerebro.casa/cerebro/addon-autoconf-{arch}"
+  }
