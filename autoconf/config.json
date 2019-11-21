@@ -1,6 +1,6 @@
 {
     "name": "Cerebro MQTT Device AutoConfig",
-    "version": "0.2.005",
+    "version": "0.2.006",
     "slug": "cerebro-autoconf",
     "url": "https://cerebro.casa",
     "description": "Part of Cerebro Casa",
@@ -9,7 +9,7 @@
     "map": ["ssl:rw","config:rw"],
     "homeassistant_api": true,
     "ports": {
-      "18333/tcp": 18333
+      "18883/tcp": 18883
     },
     "options": {
       
