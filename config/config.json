@@ -3,7 +3,7 @@
     "version": "0.3",
     "slug": "cerebro-vpn-config",
     "url": "https://cerebro.casa",
-    "description": "Part of Cerebro Casa",
+    "description": "Part of eHouser",
     "startup": "services",
     "boot": "auto",
     "map": ["ssl:rw"],

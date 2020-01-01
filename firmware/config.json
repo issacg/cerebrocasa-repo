@@ -3,7 +3,7 @@
     "version": "0.1.011",
     "slug": "cerebro-firmware",
     "url": "https://cerebro.casa",
-    "description": "Part of Cerebro Casa",
+    "description": "Part of eHouser",
     "startup": "services",
     "boot": "auto",
     "map": [],

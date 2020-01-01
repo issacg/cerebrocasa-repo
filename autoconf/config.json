@@ -3,7 +3,7 @@
     "version": "0.2.006",
     "slug": "cerebro-autoconf",
     "url": "https://cerebro.casa",
-    "description": "Part of Cerebro Casa",
+    "description": "Part of eHouser",
     "startup": "services",
     "boot": "auto",
     "map": ["ssl:rw","config:rw"],

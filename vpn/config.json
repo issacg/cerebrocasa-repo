@@ -3,7 +3,7 @@
     "version": "0.9",
     "slug": "cerebro-vpn",
     "url": "https://cerebro.casa",
-    "description": "Part of Cerebro Casa",
+    "description": "Part of eHouser",
     "startup": "services",
     "boot": "auto",
     "privileged": ["NET_ADMIN"],
