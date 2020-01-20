@@ -1,7 +1,7 @@
 {
     "name": "eHouser Device Firmware",
-    "version": "0.1.011",
-    "slug": "cerebro-firmware",
+    "version": "0.1.012-7.1.1",
+    "slug": "ehouser-firmware",
     "url": "https://cerebro.casa",
     "description": "Part of eHouser",
     "startup": "services",
@@ -15,5 +15,5 @@
     },
     "schema": false,
     "arch": ["amd64", "armv7", "armhf", "i386" , "aarch64"],
-    "image": "docker-registry.cerebro.casa/cerebro/addon-firmware-{arch}"
+    "image": "docker-registry.cerebro.casa/ehouser/addon-firmware-{arch}"
   }
