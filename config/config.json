@@ -1,22 +1,23 @@
 {
-    "name": "eHouser VPN Config",
-    "version": "0.3",
-    "slug": "cerebro-vpn-config",
+    "name": "eHouser Config",
+    "version": "0.4",
+    "slug": "ehouser-config",
     "url": "https://cerebro.casa",
     "description": "Part of eHouser",
     "startup": "services",
     "boot": "auto",
     "map": ["ssl:rw"],
     "options": {
-      "api": "https://aapi.cerebro.casa:2053",
       "username": "",
       "password": ""
     },
     "schema": {
-      "api": "url",
+      "api": "url?",
       "username": "str",
       "password": "str"
     },
+    "snapshot_exlude": ["/tmpfs/*","/ssl/*"],
+    "tmpfs": "size=16k",
     "arch": ["amd64", "armv7", "armhf", "i386" , "aarch64"],
-    "image": "docker-registry.cerebro.casa/cerebro/addon-config-{arch}"
+    "image": "docker-registry.cerebro.casa/ehouser/addon-config-{arch}"
   }
