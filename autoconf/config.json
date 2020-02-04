@@ -1,7 +1,7 @@
 {
     "name": "eHouser MQTT Device AutoConfig",
     "version": "0.2.006",
-    "slug": "cerebro-autoconf",
+    "slug": "ehouser-autoconf",
     "url": "https://cerebro.casa",
     "description": "Part of eHouser",
     "startup": "services",
@@ -16,5 +16,5 @@
     },
     "schema": false,
     "arch": ["amd64", "armv7", "armhf", "i386" , "aarch64"],
-    "image": "docker-registry.cerebro.casa/cerebro/addon-autoconf-{arch}"
+    "image": "docker-registry.ehouser.casa/ehouser/addon-autoconf-{arch}"
   }

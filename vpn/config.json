@@ -12,5 +12,5 @@
     "options": {},
     "schema": {},
     "arch": ["amd64", "armv7", "armhf", "i386" , "aarch64"],
-    "image": "docker-registry.cerebro.casa/cerebro/addon-vpn-{arch}"
+    "image": "docker-registry.cerebro.casa/ehouser/addon-vpn-{arch}"
   }
