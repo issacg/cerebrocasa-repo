@@ -1,0 +1,19 @@
+{
+    "name": "eHouser Backup",
+    "version": "0.1",
+    "slug": "ehouser-backup",
+    "url": "https://cerebro.casa",
+    "description": "Part of eHouser",
+    "startup": "application",
+    "boot": "auto",
+    "map": [],
+    "homeassistant_api": true,
+    "hassio_api": true,
+    "hassio_role": "backup",
+    "options": {
+    },
+    "schema": {
+    },
+    "arch": ["amd64", "armv7", "armhf", "i386" , "aarch64"],
+    "image": "docker-registry.cerebro.casa/ehouser/addon-backup-{arch}"
+  }
