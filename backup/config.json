@@ -1,13 +1,12 @@
 {
     "name": "eHouser Backup",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "slug": "ehouser-backup",
     "url": "https://cerebro.casa",
     "description": "Part of eHouser",
     "startup": "application",
     "boot": "auto",
     "map": ["ssl:ro"],
-    "homeassistant_api": true,
     "hassio_api": true,
     "hassio_role": "backup",
     "options": {
