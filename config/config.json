@@ -1,6 +1,6 @@
 {
     "name": "eHouser Config",
-    "version": "0.5",
+    "version": "0.6",
     "slug": "ehouser-config",
     "url": "https://cerebro.casa",
     "description": "Part of eHouser",
@@ -16,8 +16,8 @@
       "username": "str",
       "password": "str"
     },
-    "snapshot_exlude": ["/tmpfs/*","/ssl/*"],
-    "tmpfs": "size=16k",
+    "snapshot_exlude": ["/tmp/*","/ssl/*"],
+    "tmpfs": true,
     "arch": ["amd64", "armv7", "armhf", "i386" , "aarch64"],
     "image": "docker-registry.cerebro.casa/ehouser/addon-config-{arch}"
   }
